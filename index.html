@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pratik's Online Learning Platform</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-name">
+      <h1 text align = "left"><b>Pratik's Campus</b></h1>
+    </header>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 style="color: black;">Learn at Your Own Pace</h1>
+      <p style="color: grey;">Explore a variety of courses from top instructors and boost your skills today!</p>
+      <a href="courses.html" class="cta-button">Browse Courses</a>
+    </div>
+  </section>
+
+  <!-- Course Categories -->
+  <section class="categories">
+    <h2>Popular Categories</h2>
+    <div class="category-list">
+      <div class="category">
+        <h3>Web Development</h3>
+        <p>Build websites and apps with the latest tools and frameworks</p>
+      </div>
+      <div class="category">
+        <h3>Data Science</h3>
+        <p>Learn to analyze data and make informed decisions</p>
+      </div>
+      <div class="category">
+        <h3>Business</h3>
+        <p>Improve your business skills and become a leader</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Courses -->
+  <section class="featured-courses">
+    <h2>Featured Courses</h2>
+    <div class="course-cards">
+      <!-- Course 1 -->
+      <div class="course-card">
+        <img src="https://3.bp.blogspot.com/-5VX_0KZ_8Rw/XMBACUy4WzI/AAAAAAAAAzE/ILjjxv-fpi0kJ2Zobhs3DNJHWOeWI_B_ACLcBGAs/s1600/sta-je-html.jpg" alt="Course 1">
+        <h3>Introduction to HTML</h3>
+        <p>Instructor: Pratik Gupta</p>
+        <button class="btn" onclick="playVideo()">Enroll Now</button>
+      </div>
+  
+      <!-- Course 2 -->
+      <div class="course-card">
+        <img src="https://www.aiche.org/sites/default/files/images/courses/lead_custom_image_ela271.jpg" alt="Course 2">
+        <h3>Data Science with Python</h3>
+        <p>Instructor: Kishan Yadav</p>
+        <button class="btn" onclick="playVideo()">Enroll Now</button>
+      </div>
+  
+      <!-- Course 3 -->
+      <div class="course-card">
+        <img src="https://luisazhou.com/wp-content/uploads/business-fundamentals-1024x1024-1.jpg" alt="Course 3">
+        <h3>Business Fundamentals</h3>
+        <p>Instructor: Sunay Mishra</p>
+        <button class="btn" onclick="playVideo()">Enroll Now</button>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Video Player Section -->
+  <section id="video-player-section" style="display: none;">
+    <h2>Course Video</h2>
+    <div class="video-container">
+      <iframe id="course-video" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="progress-tracking">
+      <progress id="video-progress" value="0" max="100"></progress>
+      <p id="progress-text">0% Completed</p>
+    </div>
+  </section>
+  
+  
+  <footer>
+    <p>&copy; 2025 Pratik's Online Learning Platform</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
