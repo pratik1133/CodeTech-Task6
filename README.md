@@ -8,9 +8,9 @@
 
 **Duration**: December 12th, 2024 to January 12th, 2025
 
-<h2>Pratik's Campus E-Learning Platform</h2>
+<h2>Overview of the Project</h2>
 
-<h1>Personal Portfolio Website</h1>
+<h1>Pratik's Campus E-Learning Platform</h1>
 
 <img width="940" alt="image" src="https://github.com/user-attachments/assets/6d404f50-1cd9-4920-943b-bb0e4a0a2fc5" />
 
